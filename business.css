@@ -1,0 +1,85 @@
+body {
+    background-color: rgb(48, 47, 47);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#root {
+    width: 320px;
+    background-color: rgb(39, 36, 36);
+    color: #fff;
+    border-radius: 15px;
+}
+.hero {
+    text-align: center;
+    line-height: 0.5em;
+}
+
+.crop {
+    width: 320px;
+    height: 340px;
+    object-fit: cover;
+    border-top-right-radius:15px ;
+    border-top-left-radius: 15px;
+}
+.hero h2{
+    margin-bottom: 0;
+}
+.hero h4{
+    margin-top: 15;
+    color: rgb(189, 136, 113);
+}
+#rectbox {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 18px;
+}
+.email-box {
+    width: 120px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+    color: black;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.email-box p{
+    margin-left:10px;
+}
+
+.linkdin-box {
+    width: 120px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 5px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.linkdin-box p{
+    margin-left:10px;
+}
+.about {
+    margin-left: 25px;
+    margin-right: 20px;
+}
+.footer {
+    height: 50px;
+    background-color: black;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 50px;
+}
+
+.footer i{
+    font-size: 28px;
+}
